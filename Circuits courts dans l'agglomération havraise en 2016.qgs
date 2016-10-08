@@ -3,7 +3,7 @@
   <title></title>
   <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
     <customproperties/>
-    <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Un exemple de circuit court, l'approvisionnement des AMAPS de l'agglomération havraise en 2016">
+    <layer-tree-group expanded="0" checked="Qt::PartiallyChecked" name="Un exemple de circuit court, l'approvisionnement des AMAPS de l'agglomération havraise en 2016">
       <customproperties/>
       <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Une production majoritairement labellisée">
         <customproperties/>
@@ -49,17 +49,26 @@
       </layer-tree-group>
       <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Une production majoritairement périurbaine">
         <customproperties/>
-        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="FRANCE_AIRES_URBAINES_201020161004110440828" name="Pôlarisation du territoire normand en 2010">
+        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="FRANCE_AIRES_URBAINES_201020161008152025063" name="Pôlarisation du territoire normand en 2010">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
     </layer-tree-group>
-    <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Les circuits courts dans l'agglomération havraise, lieux de vente et d'approvisionnement">
+    <layer-tree-group expanded="0" checked="Qt::Checked" name="Une production soutenue par la Communauté d'agglomération du Havre (Codah), le Plan Local pour l'Agriculture">
       <customproperties/>
-      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="AGGLOMERATION_LE_HAVRE_LIEUX_VENTE_DISTRIBUTION_201620161003212900846" name="Lieux de vente et d'approvisionnement en 2016">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="CODAH_COUVEUSE_D_ACTIVITES_MARAICHERES20161007112300532" name="Couveuse d'activités maraîchères de la Codah">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Un accès inégal à des produits labellisés">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="CODAH_LIMITES20161008150952218" name="Communauté d'agglomération du Havre (CODAH)">
+        <customproperties/>
+      </layer-tree-layer>
+    </layer-tree-group>
+    <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Les circuits courts dans l'agglomération havraise, lieux de vente et d'approvisionnement">
+      <customproperties/>
+      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="AGGLOMERATION_LE_HAVRE_LIEUX_VENTE_DISTRIBUTION_201620161003212900846" name="Lieux de vente et d'approvisionnement en 2016">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Un accès inégal à des produits labellisés">
         <customproperties/>
         <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="AGGLOMERATION_LE_HAVRE_LIEUX_VENTE_DISTRIBUTION_201620161003214140909" name="Agriculture biologique">
           <customproperties/>
@@ -68,7 +77,7 @@
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
-      <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Consommer local, une question de revenus ?">
+      <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Consommer local, une question de revenus ?">
         <customproperties/>
         <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="DEPARTEMENT_76_LE_HAVRE_MONTIVILLIERS_IRIS_REVENUS_DISPONIBLES_201220161003211424879" name="Médiane des revenus disponibles par IRIS en 2012 (en euros)">
           <customproperties/>
@@ -86,7 +95,7 @@
     </layer-tree-group>
     <layer-tree-group expanded="0" checked="Qt::PartiallyChecked" name="Fonds de carte">
       <customproperties/>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="DEPARTEMENT_NORMANDIE_201620161003205400775" name="Limites des départements normands">
+      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="DEPARTEMENT_NORMANDIE_201620161003205400775" name="Limites des départements normands">
         <customproperties/>
       </layer-tree-layer>
       <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="COMMUNE_NORMANDIE_201620161003205224263" name="Communes normandes en 2016">
@@ -95,7 +104,7 @@
       <layer-tree-layer expanded="1" checked="Qt::Checked" id="DEPARTEMENT_NORMANDIE_201620161003230335134" name="Départements normands">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="DEPARTEMENT_FRANCE_201620161004105419208" name="Départements français en 2016">
+      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="DEPARTEMENT_FRANCE_201620161008145247985" name="Départements français en 2016">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
@@ -104,10 +113,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>461822.20484119199682027</xmin>
-      <ymin>6889563.16529532335698605</ymin>
-      <xmax>602598.79836937051732093</xmax>
-      <ymax>6994246.06529486738145351</ymax>
+      <xmin>474424.31316198717104271</xmin>
+      <ymin>6903662.38400082010775805</ymin>
+      <xmax>555708.05350462859496474</xmax>
+      <ymax>6969823.56800064537674189</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -141,17 +150,22 @@
       <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:2154" srcDatumTransform="-1" destDatumTransform="-1" layerid="DEPARTEMENT_76_LE_HAVRE_MONTIVILLIERS_IRIS_REVENUS_DISPONIBLES_201220161003211424879"/>
       <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:2154" srcDatumTransform="-1" destDatumTransform="-1" layerid="essai620161003222958402"/>
       <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:2154" srcDatumTransform="-1" destDatumTransform="-1" layerid="DEPARTEMENT_76_OCCUPATION_DU_SOL_CLC_201220161003210425328"/>
+      <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:2154" srcDatumTransform="-1" destDatumTransform="-1" layerid="CODAH_COUVEUSE_D_ACTIVITES_MARAICHERES20161007111816218"/>
       <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:2154" srcDatumTransform="-1" destDatumTransform="-1" layerid="LIGNE_20km20161003222439958"/>
       <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:2154" srcDatumTransform="-1" destDatumTransform="-1" layerid="AGGLOMERATION_LE_HAVRE_FLUX_PRODUCTEURS_AMAPS_201620161003220141967"/>
+      <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:2154" srcDatumTransform="-1" destDatumTransform="-1" layerid="CODAH_COUVEUSE_D_ACTIVITES_MARAICHERES20161007112300532"/>
       <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:2154" srcDatumTransform="-1" destDatumTransform="-1" layerid="AGGLOMERATION_LE_HAVRE_PRODUCTEURS_ET_AMAPS_201620161003230845359"/>
+      <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:2154" srcDatumTransform="-1" destDatumTransform="-1" layerid="CODAH_LIMITES20161008150952218"/>
       <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:2154" srcDatumTransform="-1" destDatumTransform="-1" layerid="LIGNE_10km20161003223355400"/>
       <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:2154" srcDatumTransform="-1" destDatumTransform="-1" layerid="LIGNE_40km20161003223019613"/>
+      <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:2154" srcDatumTransform="-1" destDatumTransform="-1" layerid="FRANCE_AIRES_URBAINES_201020161008152025063"/>
       <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="AGGLOMERATION_LE_HAVRE_LIEUX_VENTE_DISTRIBUTION_201620161003214140909"/>
       <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Jointure_leiux_de_consommation20161003212717776"/>
       <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:2154" srcDatumTransform="-1" destDatumTransform="-1" layerid="Tampon_20km20161003221908611"/>
       <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:2154" srcDatumTransform="-1" destDatumTransform="-1" layerid="DEPARTEMENT_NORMANDIE_201620161003205400775"/>
       <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Producteurs_AMAPS_Le_Havre_201620161003220313048"/>
       <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:2154" srcDatumTransform="-1" destDatumTransform="-1" layerid="Tampon_30km20161003222631308"/>
+      <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Codah20161007111728004"/>
       <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:2154" srcDatumTransform="-1" destDatumTransform="-1" layerid="essai220161003222410958"/>
       <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="AGGLOMERATION_LE_HAVRE_LIEUX_VENTE_DISTRIBUTION_201620161003214254753"/>
       <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:2154" srcDatumTransform="-1" destDatumTransform="-1" layerid="Tampon_20km20161003221949646"/>
@@ -167,9 +181,11 @@
       <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:2154" srcDatumTransform="-1" destDatumTransform="-1" layerid="DEPARTEMENT_FRANCE_201620161004105419208"/>
       <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:2154" srcDatumTransform="-1" destDatumTransform="-1" layerid="essai420161003222703090"/>
       <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:2154" srcDatumTransform="-1" destDatumTransform="-1" layerid="essai120161003222156007"/>
+      <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:2154" srcDatumTransform="-1" destDatumTransform="-1" layerid="DEPARTEMENT_FRANCE_201620161008145247985"/>
       <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:2154" srcDatumTransform="-1" destDatumTransform="-1" layerid="AGGLOMERATION_LE_HAVRE_PRODUCTEURS_ET_AMAPS_201620161003225225749"/>
       <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:2154" srcDatumTransform="-1" destDatumTransform="-1" layerid="AGGLOMERATION_LE_HAVRE_PRODUCTEURS_201620161003220405373"/>
       <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Producteurs_AMAPS_Le_Havre_201620161003212349723"/>
+      <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:2154" srcDatumTransform="-1" destDatumTransform="-1" layerid="CODAH_COMMUNES20161008150302404"/>
       <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:2154" srcDatumTransform="-1" destDatumTransform="-1" layerid="AGGLOMERATION_LE_HAVRE_PRODUCTEURS_201620161003224507539"/>
       <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:2154" srcDatumTransform="-1" destDatumTransform="-1" layerid="essai120161003223219952"/>
       <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:2154" srcDatumTransform="-1" destDatumTransform="-1" layerid="essai520161003222912596"/>
@@ -184,6 +200,8 @@
       <item>AGGLOMERATION_LE_HAVRE_PRODUCTEURS_ET_AMAPS_201620161003220637390</item>
       <item>AGGLOMERATION_LE_HAVRE_PRODUCTEURS_ET_AMAPS_201620161003225225749</item>
       <item>AGGLOMERATION_LE_HAVRE_FLUX_PRODUCTEURS_AMAPS_201620161003220141967</item>
+      <item>CODAH_COUVEUSE_D_ACTIVITES_MARAICHERES20161007112300532</item>
+      <item>CODAH_LIMITES20161008150952218</item>
       <item>LIGNE_10km20161003223355400</item>
       <item>LIGNE_20km20161003222439958</item>
       <item>LIGNE_30km20161003222731815</item>
@@ -192,16 +210,16 @@
       <item>AGGLOMERATION_LE_HAVRE_LIEUX_VENTE_DISTRIBUTION_201620161003214140909</item>
       <item>AGGLOMERATION_LE_HAVRE_LIEUX_VENTE_DISTRIBUTION_201620161003214254753</item>
       <item>AGGLOMERATION_LE_HAVRE_LIEUX_VENTE_DISTRIBUTION_201620161003212900846</item>
-      <item>FRANCE_AIRES_URBAINES_201020161004110440828</item>
+      <item>FRANCE_AIRES_URBAINES_201020161008152025063</item>
       <item>DEPARTEMENT_76_OCCUPATION_DU_SOL_CLC_201220161003210425328</item>
       <item>DEPARTEMENT_76_LE_HAVRE_MONTIVILLIERS_IRIS_REVENUS_DISPONIBLES_201220161003211424879</item>
       <item>COMMUNE_NORMANDIE_201620161003205224263</item>
       <item>DEPARTEMENT_NORMANDIE_201620161003230335134</item>
-      <item>DEPARTEMENT_FRANCE_201620161004105419208</item>
+      <item>DEPARTEMENT_FRANCE_201620161008145247985</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="false">
-    <legendgroup open="true" checked="Qt::PartiallyChecked" name="Un exemple de circuit court, l'approvisionnement des AMAPS de l'agglomération havraise en 2016">
+    <legendgroup open="false" checked="Qt::PartiallyChecked" name="Un exemple de circuit court, l'approvisionnement des AMAPS de l'agglomération havraise en 2016">
       <legendgroup open="false" checked="Qt::Unchecked" name="Une production majoritairement labellisée">
         <legendlayer drawingOrder="2" open="true" checked="Qt::Unchecked" name="Agriculture Biologique" showFeatureCount="0">
           <filegroup open="true" hidden="false">
@@ -236,27 +254,27 @@
           </filegroup>
         </legendlayer>
         <legendgroup open="false" checked="Qt::Unchecked" name="Distance à vol d'oiseau depuis le centre de gravité de la commune du Havre ">
-          <legendlayer drawingOrder="7" open="true" checked="Qt::Unchecked" name="0 - 10 km" showFeatureCount="0">
+          <legendlayer drawingOrder="9" open="true" checked="Qt::Unchecked" name="0 - 10 km" showFeatureCount="0">
             <filegroup open="true" hidden="false">
               <legendlayerfile isInOverview="0" layerid="LIGNE_10km20161003223355400" visible="0"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="8" open="true" checked="Qt::Unchecked" name="10 - 20 km" showFeatureCount="0">
+          <legendlayer drawingOrder="10" open="true" checked="Qt::Unchecked" name="10 - 20 km" showFeatureCount="0">
             <filegroup open="true" hidden="false">
               <legendlayerfile isInOverview="0" layerid="LIGNE_20km20161003222439958" visible="0"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="9" open="true" checked="Qt::Unchecked" name="20 - 30 km" showFeatureCount="0">
+          <legendlayer drawingOrder="11" open="true" checked="Qt::Unchecked" name="20 - 30 km" showFeatureCount="0">
             <filegroup open="true" hidden="false">
               <legendlayerfile isInOverview="0" layerid="LIGNE_30km20161003222731815" visible="0"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="10" open="true" checked="Qt::Unchecked" name="30 - 40 km" showFeatureCount="0">
+          <legendlayer drawingOrder="12" open="true" checked="Qt::Unchecked" name="30 - 40 km" showFeatureCount="0">
             <filegroup open="true" hidden="false">
               <legendlayerfile isInOverview="0" layerid="LIGNE_40km20161003223019613" visible="0"/>
             </filegroup>
           </legendlayer>
-          <legendlayer drawingOrder="11" open="true" checked="Qt::Unchecked" name="40 - 50 km" showFeatureCount="0">
+          <legendlayer drawingOrder="13" open="true" checked="Qt::Unchecked" name="40 - 50 km" showFeatureCount="0">
             <filegroup open="true" hidden="false">
               <legendlayerfile isInOverview="0" layerid="LIGNE_50km20161003222306686" visible="0"/>
             </filegroup>
@@ -264,33 +282,45 @@
         </legendgroup>
       </legendgroup>
       <legendgroup open="false" checked="Qt::Unchecked" name="Une production majoritairement périurbaine">
-        <legendlayer drawingOrder="15" open="true" checked="Qt::Unchecked" name="Pôlarisation du territoire normand en 2010" showFeatureCount="0">
+        <legendlayer drawingOrder="17" open="true" checked="Qt::Unchecked" name="Pôlarisation du territoire normand en 2010" showFeatureCount="0">
           <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="FRANCE_AIRES_URBAINES_201020161004110440828" visible="0"/>
+            <legendlayerfile isInOverview="0" layerid="FRANCE_AIRES_URBAINES_201020161008152025063" visible="0"/>
           </filegroup>
         </legendlayer>
       </legendgroup>
     </legendgroup>
+    <legendgroup open="false" checked="Qt::Checked" name="Une production soutenue par la Communauté d'agglomération du Havre (Codah), le Plan Local pour l'Agriculture">
+      <legendlayer drawingOrder="7" open="true" checked="Qt::Checked" name="Couveuse d'activités maraîchères de la Codah" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="CODAH_COUVEUSE_D_ACTIVITES_MARAICHERES20161007112300532" visible="1"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="8" open="true" checked="Qt::Checked" name="Communauté d'agglomération du Havre (CODAH)" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="CODAH_LIMITES20161008150952218" visible="1"/>
+        </filegroup>
+      </legendlayer>
+    </legendgroup>
     <legendgroup open="false" checked="Qt::Unchecked" name="Les circuits courts dans l'agglomération havraise, lieux de vente et d'approvisionnement">
-      <legendlayer drawingOrder="14" open="false" checked="Qt::Unchecked" name="Lieux de vente et d'approvisionnement en 2016" showFeatureCount="0">
-        <filegroup open="false" hidden="false">
+      <legendlayer drawingOrder="16" open="true" checked="Qt::Unchecked" name="Lieux de vente et d'approvisionnement en 2016" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
           <legendlayerfile isInOverview="0" layerid="AGGLOMERATION_LE_HAVRE_LIEUX_VENTE_DISTRIBUTION_201620161003212900846" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendgroup open="false" checked="Qt::Unchecked" name="Un accès inégal à des produits labellisés">
-        <legendlayer drawingOrder="12" open="true" checked="Qt::Unchecked" name="Agriculture biologique" showFeatureCount="0">
+      <legendgroup open="true" checked="Qt::Unchecked" name="Un accès inégal à des produits labellisés">
+        <legendlayer drawingOrder="14" open="true" checked="Qt::Unchecked" name="Agriculture biologique" showFeatureCount="0">
           <filegroup open="true" hidden="false">
             <legendlayerfile isInOverview="0" layerid="AGGLOMERATION_LE_HAVRE_LIEUX_VENTE_DISTRIBUTION_201620161003214140909" visible="0"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="13" open="true" checked="Qt::Unchecked" name="Défis ruraux" showFeatureCount="0">
+        <legendlayer drawingOrder="15" open="true" checked="Qt::Unchecked" name="Défis ruraux" showFeatureCount="0">
           <filegroup open="true" hidden="false">
             <legendlayerfile isInOverview="0" layerid="AGGLOMERATION_LE_HAVRE_LIEUX_VENTE_DISTRIBUTION_201620161003214254753" visible="0"/>
           </filegroup>
         </legendlayer>
       </legendgroup>
-      <legendgroup open="false" checked="Qt::Unchecked" name="Consommer local, une question de revenus ?">
-        <legendlayer drawingOrder="17" open="true" checked="Qt::Unchecked" name="Médiane des revenus disponibles par IRIS en 2012 (en euros)" showFeatureCount="0">
+      <legendgroup open="true" checked="Qt::Unchecked" name="Consommer local, une question de revenus ?">
+        <legendlayer drawingOrder="19" open="true" checked="Qt::Unchecked" name="Médiane des revenus disponibles par IRIS en 2012 (en euros)" showFeatureCount="0">
           <filegroup open="true" hidden="false">
             <legendlayerfile isInOverview="0" layerid="DEPARTEMENT_76_LE_HAVRE_MONTIVILLIERS_IRIS_REVENUS_DISPONIBLES_201220161003211424879" visible="0"/>
           </filegroup>
@@ -299,7 +329,7 @@
     </legendgroup>
     <legendgroup open="false" checked="Qt::Unchecked" name="L'agglomération havraise">
       <legendgroup open="true" checked="Qt::Unchecked" name="Occupation du sol en Seine-Maritime">
-        <legendlayer drawingOrder="16" open="false" checked="Qt::Unchecked" name="Occupation du sol en 2012" showFeatureCount="0">
+        <legendlayer drawingOrder="18" open="false" checked="Qt::Unchecked" name="Occupation du sol en 2012" showFeatureCount="0">
           <filegroup open="false" hidden="false">
             <legendlayerfile isInOverview="0" layerid="DEPARTEMENT_76_OCCUPATION_DU_SOL_CLC_201220161003210425328" visible="0"/>
           </filegroup>
@@ -307,24 +337,24 @@
       </legendgroup>
     </legendgroup>
     <legendgroup open="false" checked="Qt::PartiallyChecked" name="Fonds de carte">
-      <legendlayer drawingOrder="0" open="true" checked="Qt::Checked" name="Limites des départements normands" showFeatureCount="0">
+      <legendlayer drawingOrder="0" open="true" checked="Qt::Unchecked" name="Limites des départements normands" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="DEPARTEMENT_NORMANDIE_201620161003205400775" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="DEPARTEMENT_NORMANDIE_201620161003205400775" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="18" open="true" checked="Qt::Unchecked" name="Communes normandes en 2016" showFeatureCount="0">
+      <legendlayer drawingOrder="20" open="true" checked="Qt::Unchecked" name="Communes normandes en 2016" showFeatureCount="0">
         <filegroup open="true" hidden="false">
           <legendlayerfile isInOverview="0" layerid="COMMUNE_NORMANDIE_201620161003205224263" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="19" open="true" checked="Qt::Checked" name="Départements normands" showFeatureCount="0">
+      <legendlayer drawingOrder="21" open="true" checked="Qt::Checked" name="Départements normands" showFeatureCount="0">
         <filegroup open="true" hidden="false">
           <legendlayerfile isInOverview="0" layerid="DEPARTEMENT_NORMANDIE_201620161003230335134" visible="1"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="20" open="true" checked="Qt::Checked" name="Départements français en 2016" showFeatureCount="0">
+      <legendlayer drawingOrder="22" open="true" checked="Qt::Unchecked" name="Départements français en 2016" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="DEPARTEMENT_FRANCE_201620161004105419208" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="DEPARTEMENT_FRANCE_201620161008145247985" visible="0"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
@@ -3288,16 +3318,300 @@ def my_form_open(dialog, layer, feature):
         <fieldstyles/>
       </conditionalstyles>
     </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>COMMUNE_NORMANDIE_201620161003205224263</id>
-      <datasource>./COMMUNE_NORMANDIE_2016.shp</datasource>
-      <shortname>COMMUNE_NORMANDIE_2016</shortname>
+    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>CODAH_COUVEUSE_D_ACTIVITES_MARAICHERES20161007112300532</id>
+      <datasource>./CODAH_COUVEUSE_D'ACTIVITES_MARAICHERES.shp</datasource>
+      <shortname>CODAH_COUVEUSE_D'ACTIVITES_MARAICHERES</shortname>
       <title></title>
       <abstract></abstract>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>Communes normandes en 2016</layername>
+      <layername>Couveuse d'activités maraîchères de la Codah</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>145</srsid>
+          <srid>2154</srid>
+          <authid>EPSG:2154</authid>
+          <description>RGF93 / Lambert-93</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="NOM">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="LAT">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="LONG">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="60,163,65,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="name" v="diamond"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="6"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties>
+        <property key="labeling" value="pal"/>
+        <property key="labeling/addDirectionSymbol" value="false"/>
+        <property key="labeling/angleOffset" value="0"/>
+        <property key="labeling/blendMode" value="0"/>
+        <property key="labeling/bufferBlendMode" value="0"/>
+        <property key="labeling/bufferColorA" value="255"/>
+        <property key="labeling/bufferColorB" value="255"/>
+        <property key="labeling/bufferColorG" value="255"/>
+        <property key="labeling/bufferColorR" value="255"/>
+        <property key="labeling/bufferDraw" value="false"/>
+        <property key="labeling/bufferJoinStyle" value="64"/>
+        <property key="labeling/bufferNoFill" value="false"/>
+        <property key="labeling/bufferSize" value="1"/>
+        <property key="labeling/bufferSizeInMapUnits" value="false"/>
+        <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
+        <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
+        <property key="labeling/bufferTransp" value="0"/>
+        <property key="labeling/centroidInside" value="false"/>
+        <property key="labeling/centroidWhole" value="false"/>
+        <property key="labeling/decimals" value="3"/>
+        <property key="labeling/displayAll" value="false"/>
+        <property key="labeling/dist" value="0"/>
+        <property key="labeling/distInMapUnits" value="false"/>
+        <property key="labeling/distMapUnitMaxScale" value="0"/>
+        <property key="labeling/distMapUnitMinScale" value="0"/>
+        <property key="labeling/drawLabels" value="false"/>
+        <property key="labeling/enabled" value="false"/>
+        <property key="labeling/fieldName" value=""/>
+        <property key="labeling/fitInPolygonOnly" value="false"/>
+        <property key="labeling/fontCapitals" value="0"/>
+        <property key="labeling/fontFamily" value="Ubuntu"/>
+        <property key="labeling/fontItalic" value="false"/>
+        <property key="labeling/fontLetterSpacing" value="0"/>
+        <property key="labeling/fontLimitPixelSize" value="false"/>
+        <property key="labeling/fontMaxPixelSize" value="10000"/>
+        <property key="labeling/fontMinPixelSize" value="3"/>
+        <property key="labeling/fontSize" value="11"/>
+        <property key="labeling/fontSizeInMapUnits" value="false"/>
+        <property key="labeling/fontSizeMapUnitMaxScale" value="0"/>
+        <property key="labeling/fontSizeMapUnitMinScale" value="0"/>
+        <property key="labeling/fontStrikeout" value="false"/>
+        <property key="labeling/fontUnderline" value="false"/>
+        <property key="labeling/fontWeight" value="50"/>
+        <property key="labeling/fontWordSpacing" value="0"/>
+        <property key="labeling/formatNumbers" value="false"/>
+        <property key="labeling/isExpression" value="true"/>
+        <property key="labeling/labelOffsetInMapUnits" value="true"/>
+        <property key="labeling/labelOffsetMapUnitMaxScale" value="0"/>
+        <property key="labeling/labelOffsetMapUnitMinScale" value="0"/>
+        <property key="labeling/labelPerPart" value="false"/>
+        <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+        <property key="labeling/limitNumLabels" value="false"/>
+        <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+        <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+        <property key="labeling/maxNumLabels" value="2000"/>
+        <property key="labeling/mergeLines" value="false"/>
+        <property key="labeling/minFeatureSize" value="0"/>
+        <property key="labeling/multilineAlign" value="0"/>
+        <property key="labeling/multilineHeight" value="1"/>
+        <property key="labeling/namedStyle" value="Medium Italic"/>
+        <property key="labeling/obstacle" value="true"/>
+        <property key="labeling/obstacleFactor" value="1"/>
+        <property key="labeling/obstacleType" value="0"/>
+        <property key="labeling/offsetType" value="0"/>
+        <property key="labeling/placeDirectionSymbol" value="0"/>
+        <property key="labeling/placement" value="0"/>
+        <property key="labeling/placementFlags" value="10"/>
+        <property key="labeling/plussign" value="false"/>
+        <property key="labeling/predefinedPositionOrder" value="TR,TL,BR,BL,R,L,TSR,BSR"/>
+        <property key="labeling/preserveRotation" value="true"/>
+        <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+        <property key="labeling/priority" value="5"/>
+        <property key="labeling/quadOffset" value="4"/>
+        <property key="labeling/repeatDistance" value="0"/>
+        <property key="labeling/repeatDistanceMapUnitMaxScale" value="0"/>
+        <property key="labeling/repeatDistanceMapUnitMinScale" value="0"/>
+        <property key="labeling/repeatDistanceUnit" value="1"/>
+        <property key="labeling/reverseDirectionSymbol" value="false"/>
+        <property key="labeling/rightDirectionSymbol" value=">"/>
+        <property key="labeling/scaleMax" value="10000000"/>
+        <property key="labeling/scaleMin" value="1"/>
+        <property key="labeling/scaleVisibility" value="false"/>
+        <property key="labeling/shadowBlendMode" value="6"/>
+        <property key="labeling/shadowColorB" value="0"/>
+        <property key="labeling/shadowColorG" value="0"/>
+        <property key="labeling/shadowColorR" value="0"/>
+        <property key="labeling/shadowDraw" value="false"/>
+        <property key="labeling/shadowOffsetAngle" value="135"/>
+        <property key="labeling/shadowOffsetDist" value="1"/>
+        <property key="labeling/shadowOffsetGlobal" value="true"/>
+        <property key="labeling/shadowOffsetMapUnitMaxScale" value="0"/>
+        <property key="labeling/shadowOffsetMapUnitMinScale" value="0"/>
+        <property key="labeling/shadowOffsetUnits" value="1"/>
+        <property key="labeling/shadowRadius" value="1.5"/>
+        <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+        <property key="labeling/shadowRadiusMapUnitMaxScale" value="0"/>
+        <property key="labeling/shadowRadiusMapUnitMinScale" value="0"/>
+        <property key="labeling/shadowRadiusUnits" value="1"/>
+        <property key="labeling/shadowScale" value="100"/>
+        <property key="labeling/shadowTransparency" value="30"/>
+        <property key="labeling/shadowUnder" value="0"/>
+        <property key="labeling/shapeBlendMode" value="0"/>
+        <property key="labeling/shapeBorderColorA" value="255"/>
+        <property key="labeling/shapeBorderColorB" value="128"/>
+        <property key="labeling/shapeBorderColorG" value="128"/>
+        <property key="labeling/shapeBorderColorR" value="128"/>
+        <property key="labeling/shapeBorderWidth" value="0"/>
+        <property key="labeling/shapeBorderWidthMapUnitMaxScale" value="0"/>
+        <property key="labeling/shapeBorderWidthMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeBorderWidthUnits" value="1"/>
+        <property key="labeling/shapeDraw" value="false"/>
+        <property key="labeling/shapeFillColorA" value="255"/>
+        <property key="labeling/shapeFillColorB" value="255"/>
+        <property key="labeling/shapeFillColorG" value="255"/>
+        <property key="labeling/shapeFillColorR" value="255"/>
+        <property key="labeling/shapeJoinStyle" value="64"/>
+        <property key="labeling/shapeOffsetMapUnitMaxScale" value="0"/>
+        <property key="labeling/shapeOffsetMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeOffsetUnits" value="1"/>
+        <property key="labeling/shapeOffsetX" value="0"/>
+        <property key="labeling/shapeOffsetY" value="0"/>
+        <property key="labeling/shapeRadiiMapUnitMaxScale" value="0"/>
+        <property key="labeling/shapeRadiiMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeRadiiUnits" value="1"/>
+        <property key="labeling/shapeRadiiX" value="0"/>
+        <property key="labeling/shapeRadiiY" value="0"/>
+        <property key="labeling/shapeRotation" value="0"/>
+        <property key="labeling/shapeRotationType" value="0"/>
+        <property key="labeling/shapeSVGFile" value=""/>
+        <property key="labeling/shapeSizeMapUnitMaxScale" value="0"/>
+        <property key="labeling/shapeSizeMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeSizeType" value="0"/>
+        <property key="labeling/shapeSizeUnits" value="1"/>
+        <property key="labeling/shapeSizeX" value="0"/>
+        <property key="labeling/shapeSizeY" value="0"/>
+        <property key="labeling/shapeTransparency" value="0"/>
+        <property key="labeling/shapeType" value="0"/>
+        <property key="labeling/textColorA" value="255"/>
+        <property key="labeling/textColorB" value="0"/>
+        <property key="labeling/textColorG" value="0"/>
+        <property key="labeling/textColorR" value="0"/>
+        <property key="labeling/textTransp" value="0"/>
+        <property key="labeling/upsidedownLabels" value="0"/>
+        <property key="labeling/wrapChar" value=""/>
+        <property key="labeling/xOffset" value="0"/>
+        <property key="labeling/yOffset" value="0"/>
+        <property key="labeling/zIndex" value="0"/>
+        <property key="variableNames" value="_fields_"/>
+        <property key="variableValues" value=""/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>NOM</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Étiquette"/>
+        <family fieldname="" name="Ubuntu"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <SingleCategoryDiagramRenderer diagramType="Pie">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="0">
+          <fontProperties description="Ubuntu,11,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
+      <annotationform>.</annotationform>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions/>
+      <editform>.</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+Les formulaires QGIS peuvent avoir une fonction Python qui sera appelée à l'ouverture du formulaire.
+
+Utilisez cette fonction pour ajouter plus de fonctionnalités à vos formulaires.
+
+Entrez le nom de la fonction dans le champ
+"Fonction d'initialisation Python"
+Voici un exemple à suivre:
+"""
+from PyQt4.QtGui import QWidget
+
+def my_form_open(dialog, layer, feature):
+⇥geom = feature.geometry()
+⇥control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>CODAH_LIMITES20161008150952218</id>
+      <datasource>./CODAH_LIMITES.shp</datasource>
+      <shortname>CODAH_LIMITES</shortname>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Communauté d'agglomération du Havre (CODAH)</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
@@ -3376,12 +3690,12 @@ def my_form_open(dialog, layer, feature):
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="136,136,136,255"/>
+              <prop k="color" v="0,0,0,0"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="195,195,195,255"/>
+              <prop k="outline_color" v="0,0,0,255"/>
               <prop k="outline_style" v="solid"/>
               <prop k="outline_width" v="0.26"/>
               <prop k="outline_width_unit" v="MM"/>
@@ -3571,6 +3885,326 @@ def my_form_open(dialog, layer, feature):
       </labelattributes>
       <SingleCategoryDiagramRenderer diagramType="Pie">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="0">
+          <fontProperties description="Ubuntu,11,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
+      <annotationform>.</annotationform>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions/>
+      <editform>.</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+Les formulaires QGIS peuvent avoir une fonction Python qui sera appelée à l'ouverture du formulaire.
+
+Utilisez cette fonction pour ajouter plus de fonctionnalités à vos formulaires.
+
+Entrez le nom de la fonction dans le champ
+"Fonction d'initialisation Python"
+Voici un exemple à suivre:
+"""
+from PyQt4.QtGui import QWidget
+
+def my_form_open(dialog, layer, feature):
+⇥geom = feature.geometry()
+⇥control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+    </maplayer>
+    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>COMMUNE_NORMANDIE_201620161003205224263</id>
+      <datasource>./COMMUNE_NORMANDIE_2016.shp</datasource>
+      <shortname>COMMUNE_NORMANDIE_2016</shortname>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Communes normandes en 2016</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>145</srsid>
+          <srid>2154</srid>
+          <authid>EPSG:2154</authid>
+          <description>RGF93 / Lambert-93</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <previewExpression>COALESCE( "ID_GEOFLA", '&lt;NULL>' )</previewExpression>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="ID_GEOFLA">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="CODE_COM">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="INSEE_COM">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="NOM_COM">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="STATUT">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="X_CHF_LIEU">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Y_CHF_LIEU">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="X_CENTROID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Y_CENTROID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Z_MOYEN">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="SUPERFICIE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="POPULATION">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="CODE_ARR">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="CODE_DEPT">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="NOM_DEPT">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="CODE_REG">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="NOM_REG">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="136,136,136,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="195,195,195,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties>
+        <property key="labeling" value="pal"/>
+        <property key="labeling/addDirectionSymbol" value="false"/>
+        <property key="labeling/angleOffset" value="0"/>
+        <property key="labeling/blendMode" value="0"/>
+        <property key="labeling/bufferBlendMode" value="0"/>
+        <property key="labeling/bufferColorA" value="255"/>
+        <property key="labeling/bufferColorB" value="255"/>
+        <property key="labeling/bufferColorG" value="255"/>
+        <property key="labeling/bufferColorR" value="255"/>
+        <property key="labeling/bufferDraw" value="false"/>
+        <property key="labeling/bufferJoinStyle" value="64"/>
+        <property key="labeling/bufferNoFill" value="false"/>
+        <property key="labeling/bufferSize" value="1"/>
+        <property key="labeling/bufferSizeInMapUnits" value="false"/>
+        <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
+        <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
+        <property key="labeling/bufferTransp" value="0"/>
+        <property key="labeling/centroidInside" value="false"/>
+        <property key="labeling/centroidWhole" value="false"/>
+        <property key="labeling/decimals" value="3"/>
+        <property key="labeling/displayAll" value="false"/>
+        <property key="labeling/dist" value="0"/>
+        <property key="labeling/distInMapUnits" value="false"/>
+        <property key="labeling/distMapUnitMaxScale" value="0"/>
+        <property key="labeling/distMapUnitMinScale" value="0"/>
+        <property key="labeling/drawLabels" value="true"/>
+        <property key="labeling/enabled" value="true"/>
+        <property key="labeling/fieldName" value="NOM_COM"/>
+        <property key="labeling/fitInPolygonOnly" value="false"/>
+        <property key="labeling/fontCapitals" value="0"/>
+        <property key="labeling/fontFamily" value="Ubuntu"/>
+        <property key="labeling/fontItalic" value="false"/>
+        <property key="labeling/fontLetterSpacing" value="0"/>
+        <property key="labeling/fontLimitPixelSize" value="false"/>
+        <property key="labeling/fontMaxPixelSize" value="10000"/>
+        <property key="labeling/fontMinPixelSize" value="3"/>
+        <property key="labeling/fontSize" value="11"/>
+        <property key="labeling/fontSizeInMapUnits" value="false"/>
+        <property key="labeling/fontSizeMapUnitMaxScale" value="0"/>
+        <property key="labeling/fontSizeMapUnitMinScale" value="0"/>
+        <property key="labeling/fontStrikeout" value="false"/>
+        <property key="labeling/fontUnderline" value="false"/>
+        <property key="labeling/fontWeight" value="50"/>
+        <property key="labeling/fontWordSpacing" value="0"/>
+        <property key="labeling/formatNumbers" value="false"/>
+        <property key="labeling/isExpression" value="false"/>
+        <property key="labeling/labelOffsetInMapUnits" value="true"/>
+        <property key="labeling/labelOffsetMapUnitMaxScale" value="0"/>
+        <property key="labeling/labelOffsetMapUnitMinScale" value="0"/>
+        <property key="labeling/labelPerPart" value="false"/>
+        <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+        <property key="labeling/limitNumLabels" value="false"/>
+        <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+        <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+        <property key="labeling/maxNumLabels" value="2000"/>
+        <property key="labeling/mergeLines" value="false"/>
+        <property key="labeling/minFeatureSize" value="0"/>
+        <property key="labeling/multilineAlign" value="0"/>
+        <property key="labeling/multilineHeight" value="1"/>
+        <property key="labeling/namedStyle" value="Medium Italic"/>
+        <property key="labeling/obstacle" value="true"/>
+        <property key="labeling/obstacleFactor" value="1"/>
+        <property key="labeling/obstacleType" value="0"/>
+        <property key="labeling/offsetType" value="0"/>
+        <property key="labeling/placeDirectionSymbol" value="0"/>
+        <property key="labeling/placement" value="1"/>
+        <property key="labeling/placementFlags" value="10"/>
+        <property key="labeling/plussign" value="false"/>
+        <property key="labeling/predefinedPositionOrder" value="TR,TL,BR,BL,R,L,TSR,BSR"/>
+        <property key="labeling/preserveRotation" value="true"/>
+        <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+        <property key="labeling/priority" value="5"/>
+        <property key="labeling/quadOffset" value="4"/>
+        <property key="labeling/repeatDistance" value="0"/>
+        <property key="labeling/repeatDistanceMapUnitMaxScale" value="0"/>
+        <property key="labeling/repeatDistanceMapUnitMinScale" value="0"/>
+        <property key="labeling/repeatDistanceUnit" value="1"/>
+        <property key="labeling/reverseDirectionSymbol" value="false"/>
+        <property key="labeling/rightDirectionSymbol" value=">"/>
+        <property key="labeling/scaleMax" value="10000000"/>
+        <property key="labeling/scaleMin" value="1"/>
+        <property key="labeling/scaleVisibility" value="false"/>
+        <property key="labeling/shadowBlendMode" value="6"/>
+        <property key="labeling/shadowColorB" value="0"/>
+        <property key="labeling/shadowColorG" value="0"/>
+        <property key="labeling/shadowColorR" value="0"/>
+        <property key="labeling/shadowDraw" value="false"/>
+        <property key="labeling/shadowOffsetAngle" value="135"/>
+        <property key="labeling/shadowOffsetDist" value="1"/>
+        <property key="labeling/shadowOffsetGlobal" value="true"/>
+        <property key="labeling/shadowOffsetMapUnitMaxScale" value="0"/>
+        <property key="labeling/shadowOffsetMapUnitMinScale" value="0"/>
+        <property key="labeling/shadowOffsetUnits" value="1"/>
+        <property key="labeling/shadowRadius" value="1.5"/>
+        <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+        <property key="labeling/shadowRadiusMapUnitMaxScale" value="0"/>
+        <property key="labeling/shadowRadiusMapUnitMinScale" value="0"/>
+        <property key="labeling/shadowRadiusUnits" value="1"/>
+        <property key="labeling/shadowScale" value="100"/>
+        <property key="labeling/shadowTransparency" value="30"/>
+        <property key="labeling/shadowUnder" value="0"/>
+        <property key="labeling/shapeBlendMode" value="0"/>
+        <property key="labeling/shapeBorderColorA" value="255"/>
+        <property key="labeling/shapeBorderColorB" value="128"/>
+        <property key="labeling/shapeBorderColorG" value="128"/>
+        <property key="labeling/shapeBorderColorR" value="128"/>
+        <property key="labeling/shapeBorderWidth" value="0"/>
+        <property key="labeling/shapeBorderWidthMapUnitMaxScale" value="0"/>
+        <property key="labeling/shapeBorderWidthMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeBorderWidthUnits" value="1"/>
+        <property key="labeling/shapeDraw" value="false"/>
+        <property key="labeling/shapeFillColorA" value="255"/>
+        <property key="labeling/shapeFillColorB" value="255"/>
+        <property key="labeling/shapeFillColorG" value="255"/>
+        <property key="labeling/shapeFillColorR" value="255"/>
+        <property key="labeling/shapeJoinStyle" value="64"/>
+        <property key="labeling/shapeOffsetMapUnitMaxScale" value="0"/>
+        <property key="labeling/shapeOffsetMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeOffsetUnits" value="1"/>
+        <property key="labeling/shapeOffsetX" value="0"/>
+        <property key="labeling/shapeOffsetY" value="0"/>
+        <property key="labeling/shapeRadiiMapUnitMaxScale" value="0"/>
+        <property key="labeling/shapeRadiiMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeRadiiUnits" value="1"/>
+        <property key="labeling/shapeRadiiX" value="0"/>
+        <property key="labeling/shapeRadiiY" value="0"/>
+        <property key="labeling/shapeRotation" value="0"/>
+        <property key="labeling/shapeRotationType" value="0"/>
+        <property key="labeling/shapeSVGFile" value=""/>
+        <property key="labeling/shapeSizeMapUnitMaxScale" value="0"/>
+        <property key="labeling/shapeSizeMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeSizeType" value="0"/>
+        <property key="labeling/shapeSizeUnits" value="1"/>
+        <property key="labeling/shapeSizeX" value="0"/>
+        <property key="labeling/shapeSizeY" value="0"/>
+        <property key="labeling/shapeTransparency" value="0"/>
+        <property key="labeling/shapeType" value="0"/>
+        <property key="labeling/textColorA" value="255"/>
+        <property key="labeling/textColorB" value="0"/>
+        <property key="labeling/textColorG" value="0"/>
+        <property key="labeling/textColorR" value="0"/>
+        <property key="labeling/textTransp" value="0"/>
+        <property key="labeling/upsidedownLabels" value="0"/>
+        <property key="labeling/wrapChar" value=""/>
+        <property key="labeling/xOffset" value="0"/>
+        <property key="labeling/yOffset" value="0"/>
+        <property key="labeling/zIndex" value="0"/>
+        <property key="variableNames" value="_fields_"/>
+        <property key="variableValues" value=""/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>ID_GEOFLA</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Étiquette"/>
+        <family fieldname="" name="Ubuntu"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <SingleCategoryDiagramRenderer diagramType="Pie">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="-4.65661e-10">
           <fontProperties description="Ubuntu,11,-1,5,50,0,0,0,0,0" style=""/>
           <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
@@ -4971,8 +5605,8 @@ def my_form_open(dialog, layer, feature):
       </conditionalstyles>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>DEPARTEMENT_FRANCE_201620161004105419208</id>
-      <datasource>/media/chopinc/EMTEC/Projet_AMAP&amp;Co/Data_circuits_courts/DEPARTEMENT_FRANCE_2016.shp</datasource>
+      <id>DEPARTEMENT_FRANCE_201620161008145247985</id>
+      <datasource>./DEPARTEMENT_FRANCE_2016.shp</datasource>
       <shortname>DEPARTEMENT_FRANCE_2016</shortname>
       <title></title>
       <abstract></abstract>
@@ -5574,7 +6208,7 @@ def my_form_open(dialog, layer, feature):
         <fieldstyles/>
       </conditionalstyles>
     </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>DEPARTEMENT_NORMANDIE_201620161003230335134</id>
       <datasource>./DEPARTEMENT_NORMANDIE_2016.shp</datasource>
       <shortname>DEPARTEMENT_NORMANDIE_2016</shortname>
@@ -5838,7 +6472,7 @@ def my_form_open(dialog, layer, feature):
         <selectedonly on=""/>
       </labelattributes>
       <SingleCategoryDiagramRenderer diagramType="Pie">
-        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="0">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="-4.65661e-10">
           <fontProperties description="Ubuntu,11,-1,5,50,0,0,0,0,0" style=""/>
           <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
@@ -5877,8 +6511,8 @@ def my_form_open(dialog, layer, feature):
       </conditionalstyles>
     </maplayer>
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>FRANCE_AIRES_URBAINES_201020161004110440828</id>
-      <datasource>../../../Téléchargements/RВgion_Normandie/FRANCE_AIRES_URBAINES_2010.shp|layerid=0|subset="NOM_REGION" = 'BASSE-NORMANDIE' OR "NOM_REGION" = 'HAUTE-NORMANDIE'</datasource>
+      <id>FRANCE_AIRES_URBAINES_201020161008152025063</id>
+      <datasource>./FRANCE_AIRES_URBAINES_2010.shp</datasource>
       <shortname>FRANCE_AIRES_URBAINES_2010</shortname>
       <title></title>
       <abstract></abstract>
@@ -8030,10 +8664,12 @@ def my_form_open(dialog, layer, feature):
         <value>AGGLOMERATION_LE_HAVRE_PRODUCTEURS_201620161003224630894</value>
         <value>AGGLOMERATION_LE_HAVRE_PRODUCTEURS_ET_AMAPS_201620161003220637390</value>
         <value>AGGLOMERATION_LE_HAVRE_PRODUCTEURS_ET_AMAPS_201620161003225225749</value>
+        <value>CODAH_COUVEUSE_D_ACTIVITES_MARAICHERES20161007112300532</value>
+        <value>CODAH_LIMITES20161008150952218</value>
         <value>COMMUNE_NORMANDIE_201620161003205224263</value>
         <value>DEPARTEMENT_76_LE_HAVRE_MONTIVILLIERS_IRIS_REVENUS_DISPONIBLES_201220161003211424879</value>
         <value>DEPARTEMENT_76_OCCUPATION_DU_SOL_CLC_201220161003210425328</value>
-        <value>DEPARTEMENT_FRANCE_201620161004105419208</value>
+        <value>DEPARTEMENT_FRANCE_201620161008145247985</value>
         <value>DEPARTEMENT_NORMANDIE_201620161003205400775</value>
         <value>DEPARTEMENT_NORMANDIE_201620161003230335134</value>
         <value>LIGNE_10km20161003223355400</value>
@@ -8041,9 +8677,11 @@ def my_form_open(dialog, layer, feature):
         <value>LIGNE_30km20161003222731815</value>
         <value>LIGNE_40km20161003223019613</value>
         <value>LIGNE_50km20161003222306686</value>
-        <value>FRANCE_AIRES_URBAINES_201020161004110440828</value>
+        <value>FRANCE_AIRES_URBAINES_201020161008152025063</value>
       </LayerSnappingList>
       <LayerSnappingEnabledList type="QStringList">
+        <value>enabled</value>
+        <value>enabled</value>
         <value>enabled</value>
         <value>enabled</value>
         <value>enabled</value>
@@ -8090,8 +8728,12 @@ def my_form_open(dialog, layer, feature):
         <value>2</value>
         <value>2</value>
         <value>2</value>
+        <value>2</value>
+        <value>2</value>
       </LayerSnappingToleranceUnitList>
       <LayerSnapToList type="QStringList">
+        <value>to_vertex</value>
+        <value>to_vertex</value>
         <value>to_vertex</value>
         <value>to_vertex</value>
         <value>to_vertex</value>
@@ -8117,6 +8759,8 @@ def my_form_open(dialog, layer, feature):
       <DefaultSnapType type="QString">off</DefaultSnapType>
       <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
       <LayerSnappingToleranceList type="QStringList">
+        <value>0.000000</value>
+        <value>0.000000</value>
         <value>0.000000</value>
         <value>0.000000</value>
         <value>0.000000</value>
